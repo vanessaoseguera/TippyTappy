@@ -20,6 +20,19 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func onTap(_ sender: UITapGestureRecognizer)
+    
+    {
+        view.endEditing(true)
+        
+        
+    }
+    @IBAction func calculatorTip(_ sender: UITextField) {
+    }
+    
+    @IBOutlet weak var tipAmountLabel: UILabel!
 
+    
+    @IBOutlet weak var totalAmountLabel: UILabel!
 }
 
